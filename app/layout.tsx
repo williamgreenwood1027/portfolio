@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     description: "Senior Backend & Full-Stack Engineer: distributed systems, cloud infrastructure, and production AI (RAG) workflows.",
     type: "website",
   },
-  icons: { icon: "/icon.svg" },
+  icons: { icon: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/icon.svg` },
 };
 
 export const viewport: Viewport = { themeColor: "#030611" };

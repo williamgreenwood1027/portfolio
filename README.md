@@ -1,5 +1,7 @@
 # William Greenwood — Portfolio
 
+**[williamgreenwood1027.github.io/portfolio](https://williamgreenwood1027.github.io/portfolio/)**
+
 Personal portfolio of **William Greenwood**, Senior Software Engineer & Full Stack Developer.
 
 Built with **Next.js 15 (App Router)**, **React 19** and **TypeScript**: a dark, space-themed design with an animated galaxy background, glassmorphism cards, and a built-in portfolio assistant.
@@ -22,7 +24,7 @@ Built with **Next.js 15 (App Router)**, **React 19** and **TypeScript**: a dark,
 npm install
 npm run dev      # http://localhost:3000
 npm run build    # production build
-npm start        # serve the production build
+npm start        # preview the static build in ./out
 ```
 
 ## Editing content
@@ -32,7 +34,9 @@ The downloadable résumé is [`public/William-Greenwood-Resume.pdf`](public/Will
 
 ## Deploy
 
-The site is fully static and deploys to [Vercel](https://vercel.com/new) with zero configuration: import this repository and click **Deploy**.
+**Live:** https://williamgreenwood1027.github.io/portfolio/
+
+Every push to `main` builds a static export and deploys it to GitHub Pages via [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). It also deploys to [Vercel](https://vercel.com/new) with zero configuration.
 
 ## Project structure
 

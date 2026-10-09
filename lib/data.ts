@@ -8,7 +8,7 @@ export const profile = {
   phone: "+1 (601) 651-7172",
   phoneHref: "tel:+16016517172",
   github: "https://github.com/williamgreenwood1027",
-  resume: "/William-Greenwood-Resume.pdf",
+  resume: `${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/William-Greenwood-Resume.pdf`,
 };
 
 export const roles = [
